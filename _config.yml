@@ -2,7 +2,7 @@ title: Sreyoshi Sur
 description: Computational chemistry, AI, and workflows
 url: https://sreyoshi1990.github.io
 permalink: /blog/:year/:month/:day/:title/
-remote_theme: "mmistakes/minimal-mistakes@latest"
+remote_theme: "mistakes/minimal-mistakes@latest"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
