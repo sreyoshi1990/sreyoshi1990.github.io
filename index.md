@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
+author_profile: false
 ---
-
-Welcome! I write about computational chemistry, molecular engineering, and AI workflows.
+Welcome! Recent posts are below.
 
 

@@ -1,19 +1,14 @@
 title: Sreyoshi Sur
-description: Notes on computational chemistry, AI for therapeutics, and workflows.
-# Add a /blog prefix to posts like the example:
+description: Computational chemistry, AI, and workflows
+url: https://sreyoshi1990.github.io
 permalink: /blog/:year/:month/:day/:title/
-theme: minima            # built-in theme GitHub Pages supports
-minima:
-  skin: dark
-  social_links:
-    - { platform: github,  user_url: "https://github.com/sreyoshi1990" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/sreyoshi-sur/" }
+remote_theme: "mmistakes/minimal-mistakes@latest"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-markdown: kramdown
-highlighter: rouge
-
-header_pages:
-  - about.md
-  - projects.md
+  - jekyll-include-cache
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single
+      author_profile: true
