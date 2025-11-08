@@ -1,3 +1,19 @@
-theme: jekyll-theme-minimal
 title: Sreyoshi Sur
-description: Bookmark this to keep an eye on my project updates!
+description: Notes on computational chemistry, AI for therapeutics, and workflows.
+# Add a /blog prefix to posts like the example:
+permalink: /blog/:year/:month/:day/:title/
+theme: minima            # built-in theme GitHub Pages supports
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/sreyoshi1990" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/sreyoshi-sur/" }
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+markdown: kramdown
+highlighter: rouge
+
+header_pages:
+  - about.md
+  - projects.md
