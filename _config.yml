@@ -1,11 +1,7 @@
 title: Sreyoshi Sur
 description: Computational chemistry, AI, and workflows
-permalink: /blog/:year/:month/:day/:title/
 theme: minima
-minima:
-  skin: dark
+permalink: /blog/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-markdown: kramdown
-highlighter: rouge
